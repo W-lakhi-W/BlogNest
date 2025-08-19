@@ -1,0 +1,74 @@
+@import "tailwindcss";
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Global Text Styles */
+@layer base {
+  body {
+    @apply text-base text-gray-800 leading-relaxed;
+  }
+
+  h1 {
+    @apply text-3xl font-bold mt-4 mb-2;
+  }
+
+  h2 {
+    @apply text-2xl font-semibold mt-3 mb-1;
+  }
+
+  h3 {
+    @apply text-xl font-semibold mt-2;
+  }
+
+  p {
+    @apply text-base my-2;
+  }
+
+  strong {
+    @apply font-bold;
+  }
+
+  em {
+    @apply italic;
+  }
+
+  ul {
+    @apply list-disc list-outside ml-6 my-2;
+  }
+
+  ol {
+    @apply list-decimal list-outside ml-6 my-2;
+  }
+
+  li {
+    @apply mb-1;
+  }
+
+  blockquote {
+    @apply border-l-4 border-yellow-400 pl-4 italic text-gray-600 my-2;
+  }
+
+  code {
+    @apply bg-gray-100 text-gray-800 text-sm font-mono px-1 py-0.5 rounded;
+  }
+
+  pre {
+    @apply bg-gray-900 text-white text-sm font-mono p-4 rounded overflow-x-auto;
+  }
+
+  pre code {
+    @apply bg-transparent text-white p-0; /* No padding or background override */
+  }
+}
+
+.ProseMirror {
+  height: 100%;
+  min-height: 100%;
+  outline: none;
+  white-space: pre-wrap;
+}
+.ProseMirror {
+  @apply overflow-x-auto px-2 py-1;
+}
