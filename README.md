@@ -13,10 +13,10 @@ The goal of BlogNest is to create an interactive, user-friendly blogging experie
 Here are some previews of the project:
 
 ![Homepage](./screenshots/homepage.png)
+![landingpage](./screenshots/landingpage.png)
 ![Dashboard](./screenshots/dashboard.png)
+![LoginPage](./screenshots/login.png)
 
-> Put your project images inside a folder like `screenshots/` in your repo.  
-> Example: `my-project/screenshots/homepage.png`
 
 ---
 
