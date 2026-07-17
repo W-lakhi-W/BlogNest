@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useAuth } from "../context/Authcontext";
 import { Menu, X } from "lucide-react"; // Make sure lucide-react is installed
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const { user, logout } = useAuth();
@@ -25,8 +26,8 @@ const Navbar = () => {
     <nav className="bg-gradient-to-br from-yellow-50 to-white shadow-sm py-4 px-6">
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
-        <NavLink to="/" className="text-2xl font-extrabold text-yellow-600">
-          BlogNest
+        <NavLink to="/" className="flex items-center">
+          <img src={logo} alt="Scribbly" className="h-16 w-auto" />
         </NavLink>
 
         {/* Desktop Menu (Home link hidden here) */}

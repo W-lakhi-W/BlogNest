@@ -33,7 +33,7 @@ const Dashboard = () => {
   return (
     <div className="min-h-screen bg-yellow-50 p-6">
       <h1 className="text-3xl font-bold text-yellow-700 mb-8 text-center">
-        📝 My Blogs
+        Blogs
       </h1>
 
       {blogs.length === 0 ? (
