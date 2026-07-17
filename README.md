@@ -12,7 +12,10 @@ The goal of BlogNest is to create an interactive, user-friendly blogging experie
 
 Here are some previews of the project:
 
-
+![landingpage](./screenshots/landingpage.png)
+![Homepage](./screenshots/Home.png)
+![Dashboard](./screenshots/dashboard.png)
+![LoginPage](./screenshots/login.png)
 
 ---
 
